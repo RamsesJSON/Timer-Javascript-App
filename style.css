@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+body {
+   margin: 0;
+   background-color: #D5FEFF; 
+   overflow: hidden;
+}
+
+.flexcontainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: #707070;
+    font-size: 10vh;
+    width: auto;
+    margin-top: 6vh;
+    margin-bottom: 50px;
+}
+
+
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+    width: 70vw;
+    height: 0.7vh;
+    border-radius: 5%;
+    background-color: #4EB2FF;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #AFE5F1;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+
+.circle {
+    width: 36vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 36vh;
+    border-radius: 50%;
+    background: conic-gradient(rgb(107, 227, 240) 0deg, white 0deg);
+}
+
+#insideCircle {
+    width: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 28vh;
+    border-radius: 50%;
+    background-color: #D5FEFF;
+}
+
+#paragraph {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: #707070;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #D3FFB9;
+    color: #76CE51;
+    -webkit-text-stroke: #71FF20;
+    font-size: 4em;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 40vh;
+    height: 10vh;
+    border-color: #5CC700;
+}
+
+.btn_disabled {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FF9191;
+    color: #A80000;
+    -webkit-text-stroke: #FF2020;
+    font-size: 4em;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 40vh;
+    height: 10vh;
+    border-color: #A10000;
+}
+
+.secondBtn {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFD49C;
+    color: #987000;
+    -webkit-text-stroke: #FF9100;
+    font-size: 2em;
+    font-weight: 500;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 20vh;
+    height: 5vh;
+    border-color: #B78600;
+}
+
+#numberInput {
+    border: 0;
+    text-align: center;
+    width: 12vh;
+    height: 4vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+
+#numberInput::-webkit-outer-spin-button,
+#numberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
